@@ -1,0 +1,11 @@
+Question 3
+How would you test and deploy this change. Given this deployment pipeline:
+Dev > Integration > UAT > Staging > Production.
+
+Once I'm satisfied and all my test classes have passed, 
+I will deploy the code to the Integration environment. Create a pull request for review.
+If the reviewer(s) are satisfied, the code will be deployed UAT to be further tested.
+Once and if only if successful, it will be moved to the staging area in wait for its final destination, Production.
+
+
+
